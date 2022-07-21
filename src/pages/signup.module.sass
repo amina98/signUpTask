@@ -1,0 +1,133 @@
+.backArrow
+    background-color: #078282
+    border-radius: 50%
+    height: 44px
+    width: 44px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-left: 30px
+    margin-top: 100px
+    svg
+        fill: #fff
+.wave1
+    height: 200px
+    width: calc(100% + 30px)
+    transform: scaleX(0,2)
+    position: absolute
+    top: -70px
+    right: 0
+    left: -30px
+    background-color: #078282
+    border-radius: 100% 0% 0% 100% / 0% 99% 1% 100%
+.wave2
+    height: 200px
+    width: calc(100% + 30px)
+    transform: scaleX(0,3)
+    position: absolute
+    top: -40px
+    right: 0
+    left: -30px
+    background-color: #07828252
+    border-radius: 100% 0% 0% 100% / 0% 99% 1% 100%
+.container
+    max-width: 550px
+    min-width: 400px
+    margin: 0 auto
+    overflow: hidden
+.title
+    font-size: 22px
+    color: #181D2D
+    margin: 0
+.dis
+    color: #aaa
+    font-size: 14px
+.mainContainer
+    display: flex
+    flex-direction: column
+    gap: 10px
+    justify-content: flex-start
+    align-items: flex-start
+    padding: 20px 40px
+.formContainer
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: 20px
+    align-items: flex-start
+    width: 100%
+.inputField
+    display: flex
+    justify-content: center
+    align-items: center
+    border-bottom: 1px solid #C1C7D0
+    width: 100%
+    padding-bottom: 5px
+    position: relative
+    &>svg
+        width: 20px
+        padding: 5px 10px
+        border-right: 1px solid #C1C7D0
+    input
+        background-color: transparent
+        border: none
+        outline: none
+        flex: auto
+        padding: 0 10px
+        &::placeholder
+            color: #C1C7D0
+            font-size: 12px
+    .passwordEye
+        position: absolute
+        top: 50%
+        right: 10px
+        transform: translateY(-50%)
+.terms
+    color: #324a59
+    font-size: 12px
+    margin: 0 auto
+.signUpBtn
+    width: 100%
+    background-color: #078282
+    border-radius: 500px
+    padding: 15px
+    font-size: 22px
+    color: #fff
+    outline: none
+    border: none
+.orContainer
+    height: 2px
+    width: 100%
+    background-color: #078282
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 20px 0
+.or
+    background-color: #fff
+    padding: 0 10px
+    span
+        border: 2px solid #078282
+        border-radius: 50%
+        padding: 10px
+        font-weight: bold
+.otherWay
+    box-shadow: 0 2px 20px #C1C7D0
+    border: none
+    outline: none
+    width: 100%
+    border-radius: 500px
+    padding: 15px
+    background-color: #fff
+    margin-bottom: 10px
+    font-size: 14px
+.link
+    margin: 0 auto
+    a
+        color: #078282
+        font-weight: bold
+.errText
+    color: red
+    font-size: 10px
+    margin: 0
+    padding: 0
